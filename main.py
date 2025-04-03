@@ -3,6 +3,7 @@ from calculations import calculate
 from controls import clear, clear_recent, delete, click_button
 
 main = Tk()
+main.iconbitmap("calculator-icon.ico")
 main.resizable(0, 0)
 main.title("Calculator")
 main.configure(bg="#281d1d")
